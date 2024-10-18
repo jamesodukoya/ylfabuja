@@ -203,7 +203,7 @@ p {
 .portrait {
   height: 80vh;
   max-height: 600px;
-  width: 80vw;
+  width: 90vw;
   max-width: 500px;
   border-radius: 200px 100px 200px 100px;
 }
