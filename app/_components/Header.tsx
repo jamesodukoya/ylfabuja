@@ -10,11 +10,10 @@ function Header() {
     <div className="xl:px-20 md:py-10 py-5 px-5 md:px-10">
       <header className="flex justify-between items-center">
         <a href='/' className='flex items-center gap-3'>
-            {/* <img src="ylf-abuja-logo.png" className="h-16 w-16 hidden xl:flex"/> */}
-            <div className='flex items-baseline'>
-                <span className='text-5xl'>YLF</span>
-                <span className='text-3xl text-gold'>ABUJA</span>
-            </div>
+          <div className='flex items-baseline'>
+            <span className='text-5xl'>YLF</span>
+            <span className='text-3xl text-gold'>ABUJA</span>
+          </div>
         </a>
         <div className='xl:flex items-center gap-20 hidden'>
             <a href='/about' className={`hover:text-gold ${path=="/about"&&'text-gold'} navbar`}>ABOUT US</a>
