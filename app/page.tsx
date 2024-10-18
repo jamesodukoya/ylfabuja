@@ -1,5 +1,6 @@
 import Header from "./_components/Header";
 import HomeAbout from "./_components/HomeAbout";
+import HomeChairman from "./_components/HomeChairman";
 import HomeHero from "./_components/HomeHero";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         </section>
       </div>
       <HomeAbout />
+      <HomeChairman />
       
     </div>
   );

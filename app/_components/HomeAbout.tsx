@@ -4,7 +4,7 @@ function HomeAbout() {
   return (
     <div className="xl:px-20 px-5 md:px-10 min-h-[400px]">
         <div className='flex justify-center'>
-            <h1 className='py-8'> About YLF Abuja</h1>
+            <h2 className='py-8'> About YLF Abuja</h2>
         </div>
         <div className='xl:flex'>
             <div className='xl:w-[30%]'>

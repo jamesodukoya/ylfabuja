@@ -168,6 +168,51 @@ p {
   text-transform: uppercase;
 }
 
+.chairman {
+  background-image: url(/nba-ylf-abuja-chairman.jpg);
+}
+
+.chairman:after{
+  background: -moz-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 100%);
+  background: -webkit-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 100%);
+  background: linear-gradient(to bottom, rgba(19,19,19,0) 1%, #131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00131313', endColorstr='#131313',GradientType=0 );
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: 0
+}
+
+.chairman:before{
+  background: -moz-linear-gradient(bottom, rgba(19,19,19,0) 1%, #131313 100%);
+  background: -webkit-linear-gradient(bottom, rgba(19,19,19,0) 1%, #131313 100%);
+  background: linear-gradient(to top, rgba(19,19,19,0) 1%, #131313 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00131313', endColorstr='#131313',GradientType=0 );
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  z-index: 0
+}
+
+.portrait {
+  height: 80vh;
+  max-height: 600px;
+  width: 80vw;
+  max-width: 500px;
+  border-radius: 200px 100px 200px 100px;
+}
+
+.portrait.chair {
+  background-image: url(/najib-chairman.jpg);
+  background-position: top center;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

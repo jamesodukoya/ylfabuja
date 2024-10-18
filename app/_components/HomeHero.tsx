@@ -3,8 +3,8 @@ import React from 'react'
 function HomeHero() {
   return (
     <div className="xl:px-20 pt-20 px-5 md:px-10">
-      <div className='xl:flex'>
-        <h1 className='w-[70%]'> This is the Nigeria Bar Association<br /> Young Lawyers' Forum<br /> Abuja Branch</h1>
+      <div className='xl:flex z-10'>
+        <h1 className='w-[70%] z-10'> This is the Nigerian Bar Association<br /> Young Lawyers' Forum<br /> Abuja Branch</h1>
         <div>
           <a className='button z-10 mt-10 xl:mt-5' href='/about'>
             <div className='flex items-center btn hover:translate-x-2 gap-3.5'>
