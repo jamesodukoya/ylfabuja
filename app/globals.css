@@ -40,7 +40,8 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: "Mr-Eaves-XL";
+  font-family: "Mr-Eaves-XL", sans-serif;
+  /* font-weight: 900; */
 }
 
 .navbar{
@@ -66,6 +67,105 @@ body {
   left: 0;
   content: "";
   z-index: 0
+}
+
+h1 {
+  font-family: 'Ivy-Mode', sans-serif;
+  font-size: 54px;
+  line-height: 135%;
+  text-transform: none;
+  color: #fff;
+}
+
+h2 {
+    font-family: 'Ivy-Mode', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: none;
+    color: #fff
+}
+
+h3 {
+    font-family: 'Ivy-Mode', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: none;
+    color: #fff
+}
+
+h4 {
+    font-family: 'Ivy-Mode', sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 135%;
+    text-transform: none;
+    color: #fff
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 180%;
+    color: #fff
+}
+
+@media screen and (max-width: 667px) {
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size:25px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+      font-size:30px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+}
+
+.button {
+  display: inline-table;
+  text-decoration: none;
+  line-height: 100%;
+  font-size: 17px;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid white;
+  text-align: left;
+  padding: 14px 40px 14px 35px;
+  position: relative;
+  cursor: pointer;
+  letter-spacing: .1em;
+}
+
+.button:hover{
+  color: #c9a66d;
+}
+
+.btn{
+  transition: .25s ease all;
+}
+
+.small-gold{
+  color: #c9a66d;
+  letter-spacing: .2em;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 @layer utilities {
