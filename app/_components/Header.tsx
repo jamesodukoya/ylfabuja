@@ -11,8 +11,8 @@ function Header() {
       <header className="flex justify-between items-center">
         <a href='/' className='flex items-center gap-3'>
           <div className='flex items-baseline'>
-            <span className='text-5xl'>YLF</span>
-            <span className='text-3xl text-gold'>ABUJA</span>
+            <span className='text-5xl font-bold'>YLF</span>
+            <span className='text-3xl text-gold font-bold'>ABUJA</span>
           </div>
         </a>
         <div className='xl:flex items-center gap-20 hidden'>

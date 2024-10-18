@@ -9,6 +9,11 @@
 
 @font-face {
   font-family: "Mr-Eaves-XL";
+  src: url("fonts/MrEavesXLModOT-Reg.woff2");
+}
+
+@font-face {
+  font-family: "Mr-Eaves-XL-Bold";
   src: url("fonts/MrEavesXLModOT-Bold.woff2");
 }
 

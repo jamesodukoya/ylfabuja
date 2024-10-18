@@ -9,8 +9,8 @@ function Footer() {
             <div>
                 <a href='/' className='flex items-center gap-3 z-10 mb-10'>
                     <div className='flex items-baseline z-10'>
-                      <span className='text-5xl z-10'>YLF</span>
-                      <span className='text-3xl text-gold z-10'>ABUJA</span>
+                      <span className='text-5xl z-10 font-bold'>YLF</span>
+                      <span className='text-3xl text-gold z-10 font-bold'>ABUJA</span>
                     </div>
                 </a>
                 <div className='flex flex-nowrap gap-2'>
