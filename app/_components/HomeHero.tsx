@@ -3,7 +3,7 @@ import React from 'react'
 function HomeHero() {
   return (
     <div className="xl:px-20 pt-20 px-5 md:px-10">
-      <div className='xl:flex z-10'>
+      <div className='xl:flex z-10 lg:pt-32 pt-[70px]'>
         <h1 className='w-[70%] z-10'> This is the Nigerian Bar Association<br /> Young Lawyers' Forum<br /> Abuja Branch</h1>
         <div>
           <a className='button z-10 mt-10 xl:mt-5' href='/about'>
