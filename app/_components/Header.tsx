@@ -7,9 +7,14 @@ function Header() {
   const path = usePathname();
   
   const [open, setOpen] = useState(false);
+  const [subOpen, setSubOpen] = useState(false);
 
-  const toogleMenu = () => {
+  const toggleMenu = () => {
     setOpen((prevOpen) => !prevOpen);
+  }
+
+  const toggleSubMenu = () => {
+    setSubOpen((prevSubOpen) => !prevSubOpen);
   }
 
   return (
@@ -22,7 +27,7 @@ function Header() {
               <span className='text-3xl text-gold font-bold'>ABUJA</span>
             </div>
           </a>
-          <div id="menu-icon" onClick={toogleMenu} className={`toggle-nav ${open ? 'active':''} flex flex-col gap-2.5 lg:hidden`}>
+          <div id="menu-icon" onClick={toggleMenu} className={`toggle-nav ${open ? 'active':''} flex flex-col gap-2.5 lg:hidden`}>
 						<span className="line line-1"></span>
 						<span className="line line-2"></span>
 						<span className="line line-3"></span>
@@ -32,8 +37,8 @@ function Header() {
             <a href='/about' className={`lg:border-0 border-b border-gold  w-full py-3 lg:py-0 hover:text-gold ${path=="/about"&&'text-gold'} navbar`}>ABOUT US</a>
             <a href='/executives' className={`lg:border-0 lg:w-1/5 border-b border-gold w-full py-3 lg:py-0 hover:text-gold ${path=="/executives"&&'text-gold'} navbar`}>EXECUTIVES</a>
             <div className='group lg:border-0 border-b border-gold lg:py-5 py-3 lg:flex flex-col block lg:w-1/5 w-full lg:items-center'>
-                <a className={` w-full lg:py-0 hover:text-gold ${path=="/members-portal"&&'text-gold'} ${path=="/find-a-lawyer"&&'text-gold'} ${path=="/law-firms-in-abuja"&&'text-gold'} ${path=="/nba-constitution"&&'text-gold'} navbar cursor-pointer`}>DIRECTORIES</a>
-                <div className='lg:absolute hidden lg:z-50 lg:top-24 group-hover:flex flex-col flex-nowrap lg:bg-dark lg:px-10 lg:py-12 lg:gap-5 pt-3  sub-div'>
+                <a onClick={toggleSubMenu} className={`w-full lg:py-0 hover:text-gold ${path=="/members-portal"&&'text-gold'} ${path=="/find-a-lawyer"&&'text-gold'} ${path=="/law-firms-in-abuja"&&'text-gold'} ${path=="/nba-constitution"&&'text-gold'} navbar cursor-pointer`}>DIRECTORIES</a>
+            <div className={`lg:absolute ${subOpen?"flex":"hidden"} lg:z-50 lg:top-24 flex-col flex-nowrap lg:bg-dark lg:px-10 lg:py-12 lg:gap-5 pt-3  sub-div`}>
                     <a href='/members-portal' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Members' Portal</a>
                     <a href='/find-a-lawyer' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Find a Lawyer</a>
                     <a href='/law-firms-in-abuja' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Law Firms in Abuja</a>
