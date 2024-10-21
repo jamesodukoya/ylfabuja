@@ -36,9 +36,13 @@ function Header() {
         <div className={`lg:flex-row lg:flex lg:items-center items-start flex flex-col xl:gap-20 lg:gap-10 lg:justify-between lg:w-auto w-full lg:mt-0 mt-10 ${!open&&"hidden"}`}>
             <a href='/about' className={`lg:border-0 border-b border-gold  w-full py-3 lg:py-0 hover:text-gold ${path=="/about"&&'text-gold'} navbar`}>ABOUT US</a>
             <a href='/executives' className={`lg:border-0 lg:w-1/5 border-b border-gold w-full py-3 lg:py-0 hover:text-gold ${path=="/executives"&&'text-gold'} navbar`}>EXECUTIVES</a>
-            <div className='group lg:border-0 border-b border-gold lg:py-5 py-3 lg:flex flex-col block lg:w-1/5 w-full lg:items-center'>
-                <a onClick={toggleSubMenu} className={`w-full lg:py-0 hover:text-gold ${path=="/members-portal"&&'text-gold'} ${path=="/find-a-lawyer"&&'text-gold'} ${path=="/law-firms-in-abuja"&&'text-gold'} ${path=="/nba-constitution"&&'text-gold'} navbar cursor-pointer`}>DIRECTORIES</a>
-            <div className={`lg:absolute ${subOpen?"flex":"hidden"} lg:z-50 lg:top-24 flex-col flex-nowrap lg:bg-dark lg:px-10 lg:py-12 lg:gap-5 pt-3  sub-div`}>
+          <div className='group lg:border-0 border-b border-gold lg:py-5 py-3 lg:flex flex-col block lg:w-1/5 w-full lg:items-center transition'>
+            <div onClick={toggleSubMenu} className={`flex justify-between`}>
+                <a className={`w-full lg:py-0 hover:text-gold ${path=="/members-portal"&&'text-gold'} ${path=="/find-a-lawyer"&&'text-gold'} ${path=="/law-firms-in-abuja"&&'text-gold'} ${path=="/nba-constitution"&&'text-gold'} navbar cursor-pointer transition`}>DIRECTORIES</a>
+              <svg viewBox="0 0 32 32" width="25" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M16 7v18M7 16h18" fill="none" stroke="#c9a66d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" className={`stroke-000000 lg:hidden ${subOpen?"subOpen":""}`}></path></svg>
+                <span className={`icon-plus lg:hidden `}></span>
+              </div>
+            <div className={`lg:absolute ${subOpen?"flex":"hidden"} lg:z-50 lg:top-24 flex-col flex-nowrap lg:bg-dark lg:px-10 lg:py-12 lg:gap-5 pt-2  sub-div`}>
                     <a href='/members-portal' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Members' Portal</a>
                     <a href='/find-a-lawyer' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Find a Lawyer</a>
                     <a href='/law-firms-in-abuja' className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Law Firms in Abuja</a>

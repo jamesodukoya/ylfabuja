@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s
+} */
+
 :root {
   --background: #ffffff;
   --foreground: #131313;
@@ -23,7 +29,7 @@
 }
 
 .sub-div{
-  transition: .3s ease all;
+  transition: all .3s;
 }
 
 .sub-menu {
@@ -31,7 +37,7 @@
   font-size: 22px;
   text-transform: none;
   letter-spacing: 0;
-  transition: .3s ease all;
+  transition: all .3s;
   font-weight: 700;
 }
 
@@ -103,6 +109,13 @@ body {
   transform:translateY(-12px) translateX(0) rotate(-45deg);
   -webkit-transform:translateY(-12px) translateX(0) rotate(-45deg);
   -moz-transform:translateY(-12px) translateX(0) rotate(-45deg)
+}
+
+.subOpen {
+  transform: translateY(-8px) translateX(16px) rotate(45deg) !important;
+  -webkit-transform: translateY(-8px) translateX(16px) rotate(45deg) !important;
+  -moz-transform:rotate(45deg) !important;
+  transition: all 0.4s;
 }
 
 .hero {
