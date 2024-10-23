@@ -23,7 +23,7 @@ function HomeHero() {
   let settings = {
     dots: false,
     infinite: false,
-    speed: 1500,
+    speed: 1200,
     slidesToShow: 3,
     swipeToSlide: true,
     slidesToScroll: 1,
