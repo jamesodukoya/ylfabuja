@@ -1,27 +1,62 @@
-export const ExecutivesHome = [
+export const Executives = [
     {
-        name: 'ABOUT US',
-        office: '',
-        picture:'/about'
+        name: 'Najib A. Waziri',
+        office: 'Chairman',
+        picture: '/najib-chairman.jpg',
+        sm_picture: '/sm-najib-chairman.jpg'
     },
     {
-        name: 'Patients',
-        icon: '/patients.png',
-        path:'/'
+        name: 'Ekpa Stanley Ekpa',
+        office: 'Vice Chairman',
+        picture: '/EkpaStanleyEkpaVice_chairman.jpg',
+        sm_picture: '/sm_EkpaStanleyEkpaVice_chair.jpg'
     },
     {
-        name: 'Schedule',
-        icon: '/calendar.png',
-        path:'#2'
+        name: 'Rolake Akinboro',
+        office: 'Secretary',
+        picture: '/RolakeAkinboroSecretary.jpg',
+        sm_picture: '/sm_RolakeAkinboroSecretary.jpg'
     },
     {
-        name: 'Message',
-        icon: '/messages.png',
-        path:'#3'
+        name: 'Aisha Al Hassan',
+        office: 'Alternate Secretary',
+        picture: '/AishaAlHassanAlternateSecretary.jpg',
+        sm_picture: '/sm_AishaAlHassanAlternateSecretary.jpg'
     },
     {
-        name: 'Transactions',
-        icon: '/transactions.png',
-        path:'#4'
+        name: 'Jennifer Ben-Agande',
+        office: 'Social Secretary',
+        picture: '/JenniferBen-AgandeSocialSecretary.jpg',
+        sm_picture: '/sm_JenniferBen-AgandeSocialSecretary.jpg'
+    },
+    {
+        name: 'Simiat Suleman',
+        office: 'Treasurer',
+        picture: '/SimiatSulemanTreasurer.jpg',
+        sm_picture: '/sm_SimiatSulemanTreasurer.jpg'
+    },
+    {
+        name: 'Mustafah Umar Ibrahim',
+        office: 'Provost',
+        picture: '/MustafahUmarIbrahimProvost.jpg',
+        sm_picture: '/sm_MustafahUmarIbrahimProvost.jpg'
+    },
+    {
+        name: 'Damilola Olatunji',
+        office: 'Legal Adviser',
+        picture: '/DamilolaOlatunjiLegalAdviser.jpg',
+        sm_picture: '/sm_DamilolaOlatunjiLegalAdviser.jpg'
+    },
+    {
+        name: 'Alice Ewa Henshaw',
+        office: 'Member',
+        picture: '/AliceEwaHenshawMember.jpg',
+        sm_picture: '/sm_AliceEwaHenshawMember.jpg'
+    },
+    {
+        name: 'Nadi Sochima Lynda',
+        office: 'Member',
+        picture: '/NadiSochimaLyndaMember.jpg',
+        sm_picture: '/sm_NadiSochimaLyndaMember.jpg'
     }
 ]
