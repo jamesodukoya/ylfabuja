@@ -3,13 +3,13 @@ import Header from '../_components/Header'
 
 function About() {
   return (
-    <div className='z-10'>
-        <div className="relative z-10">
+    <div className=''>
+        <div className="relative">
         <section className="about bg-cover min-h-screen bg-center bg-fixed">
           <Header />
-          <div className="xl:px-20 pt-20 px-5 md:px-10 z-10">
-            <div className='flex justify-center z-10 relative'>
-                <h1 className='py-32 z-10'> About Our Forum</h1>
+          <div className="xl:px-20 pt-28 px-5 md:px-10">
+            <div className='flex justify-center relative'>
+                <h1 className='my-32 z-10'> About Our Forum</h1>
             </div>
         <div className='lg:flex content z-10 gap-10 relative'>
             <div className='lg:w-[30%]'>

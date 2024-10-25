@@ -4,13 +4,13 @@ function Footer() {
     return (
     <div className='relative'>
     <div className='footer bg-cover bg-center xl:px-20 px-5 md:px-10  xl:py-32 py-10'>
-        <div className='lg:flex-row flex flex-col z-10'>
-        <div className='lg:w-1/3 z-10 flex flex-col justify-between'>
+        <div className='lg:flex-row flex flex-col'>
+        <div className='lg:w-1/3 flex flex-col justify-between'>
             <div>
-                <a href='/' className='flex items-center gap-3 z-10 mb-10'>
-                    <div className='flex items-baseline z-10'>
-                      <span className='text-5xl z-10 font-bold'>YLF</span>
-                      <span className='text-3xl text-gold z-10 font-bold'>ABUJA</span>
+                <a href='/' className='flex items-center gap-3  mb-6'>
+                    <div className='flex items-baseline '>
+                      <span className='text-5xl  font-bold'>YLF</span>
+                      <span className='text-3xl text-gold  font-bold'>ABUJA</span>
                     </div>
                 </a>
                 <div className='flex flex-nowrap gap-2'>
@@ -19,15 +19,15 @@ function Footer() {
                 </div>
             </div>
         </div>
-        <div className='lg:w-1/3 z-10 flex flex-col flex-nowrap gap-2 xl:pt-0 pt-5'>
-            <p className='small-gold z-10 mb-4 lg:mb-8'>MENU</p>
+        <div className='lg:w-1/3  flex flex-col flex-nowrap gap-2 xl:pt-0 pt-5'>
+            <p className='small-gold  mb-0 lg:mb-4'>MENU</p>
             <a href='/about' className='navbar'>ABOUT US</a>
             <a href='/executives' className='navbar'>EXECUTIVES</a>
             <a href='/publications' className='navbar'>PUBLICATIONS</a>
             <a href='/news-events' className='navbar'>NEWS & EVENTS</a>
         </div>
-        <div className='lg:w-1/3 z-10 flex flex-col flex-nowrap gap-2 xl:pt-0 pt-5'>
-            <p className='small-gold z-10 mb-4 lg:mb-8'>QUICK LINKS</p>
+        <div className='lg:w-1/3  flex flex-col flex-nowrap gap-2 xl:pt-0 pt-5'>
+            <p className='small-gold  mb-0 lg:mb-4'>QUICK LINKS</p>
             <a href='/members-portal' className='navbar capitalize'>Members' Portal</a>
             <a href='/find-a-lawyer' className='navbar capitalize'>Find a Lawyer</a>
             <a href='/law-firms-in-abuja' className='navbar capitalize'>Law Firms in Abuja</a>
