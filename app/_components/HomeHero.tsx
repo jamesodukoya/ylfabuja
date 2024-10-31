@@ -49,7 +49,7 @@ function HomeHero() {
   return (
     <div className="xl:px-20 pt-20 px-5 md:px-10 z-100">
       <div className='xl:flex z-10 lg:pt-48 pt-[70px]'>
-        <h1 className='w-[70%] z-10'> This is the Nigerian Bar Association<br /> Young Lawyers' Forum<br /> Abuja Branch</h1>
+        <h1 className='w-[70%] z-10'> The Nigerian Bar Association<br></br> Young Lawyers' Forum<br></br> Abuja Branch</h1>
         <div>
           <a className='button z-10 mt-10 xl:mt-5' href='/about'>
             <div className='flex items-center btn hover:translate-x-2 gap-3.5'>
