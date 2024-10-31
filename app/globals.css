@@ -67,7 +67,7 @@ body {
 
 @media screen and (max-width: 1023px) {
     .header.open {
-      background: rgba(19,19,19,0.93);
+      background: rgba(19,19,19,0.97);
       padding: 40px 30px;
       z-index: 1000;
       transition: all 0.4s;
