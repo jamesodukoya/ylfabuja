@@ -36,7 +36,7 @@ export const Executives = [
         sm_picture: '/sm_SimiatSulemanTreasurer.webp'
     },
     {
-        name: 'Mustafah Umar Ibrahim',
+        name: 'Mustapha Umar Ibrahim',
         office: 'Provost',
         picture: '/MustafahUmarIbrahimProvost.webp',
         sm_picture: '/sm_MustafahUmarIbrahimProvost.webp'
