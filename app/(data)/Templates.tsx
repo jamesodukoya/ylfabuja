@@ -30,7 +30,7 @@ export const Executives = [
         sm_picture: '/sm_JenniferBen-AgandeSocialSecretary.jpg'
     },
     {
-        name: 'Simiat Suleman',
+        name: 'Simiat Suleiman',
         office: 'Treasurer',
         picture: '/SimiatSulemanTreasurer.jpg',
         sm_picture: '/sm_SimiatSulemanTreasurer.jpg'
