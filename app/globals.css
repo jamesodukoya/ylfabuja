@@ -119,7 +119,7 @@ body {
 }
 
 .hero {
-  background-image: url(/ylf-abuja-home-hero.jpg);
+  background-image: url(/ylf-abuja-home-hero.webp);
 }
 
 .hero:after{
@@ -285,7 +285,7 @@ p, .para {
 }
 
 /* .chairman {
-  background-image: url(/nba-ylf-abuja-chairman.jpg);
+  background-image: url(/nba-ylf-abuja-chairman.webp);
 }
 
 .chairman:after{
@@ -325,12 +325,12 @@ p, .para {
 }
 
 .portrait.chair {
-  background-image: url(/najib-chairman.jpg);
+  background-image: url(/najib-chairman.webp);
   background-position: top center;
 }
 
 .footer{
-  background-image: url(/ylf-abuja-footer.jpg);
+  background-image: url(/ylf-abuja-footer.webp);
 }
 
 /* .footer:before{
@@ -380,11 +380,11 @@ p, .para {
 }
 
 .exec{
-  background-image: url('/ylf-abuja-executives.jpg');
+  background-image: url('/ylf-abuja-executives.webp');
 }
 
 .soon{
-  background-image: url('/nba-ylf-abuja-coming-soon.jpg');
+  background-image: url('/nba-ylf-abuja-coming-soon.webp');
 }
 
 a:hover{

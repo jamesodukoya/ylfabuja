@@ -8,9 +8,9 @@ import HomeHero from "./_components/HomeHero";
 export default function Home() {
 
   const images = [
-    "/ylf-abuja-home-hero.jpg",
-    "/nba-ylf-abuja-chairman.jpg",
-    "/ylf-abuja-home-hero-1.jpg",
+    "/ylf-abuja-home-hero.webp",
+    "/nba-ylf-abuja-chairman.webp",
+    "/ylf-abuja-home-hero-1.webp",
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

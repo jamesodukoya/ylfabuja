@@ -2,61 +2,61 @@ export const Executives = [
     {
         name: 'Najib A. Waziri',
         office: 'Chairman',
-        picture: '/najib-chairman.jpg',
-        sm_picture: '/sm-najib-chairman.jpg'
+        picture: '/najib-chairman.webp',
+        sm_picture: '/sm-najib-chairman.webp'
     },
     {
         name: 'Ekpa Stanley Ekpa',
         office: 'Vice Chairman',
-        picture: '/EkpaStanleyEkpaVice_chairman.jpg',
-        sm_picture: '/sm_EkpaStanleyEkpaVice_chair.jpg'
+        picture: '/EkpaStanleyEkpaVice_chairman.webp',
+        sm_picture: '/sm_EkpaStanleyEkpaVice_chair.webp'
     },
     {
         name: 'Rolake Akinboro',
         office: 'Secretary',
-        picture: '/RolakeAkinboroSecretary.jpg',
-        sm_picture: '/sm_RolakeAkinboroSecretary.jpg'
+        picture: '/RolakeAkinboroSecretary.webp',
+        sm_picture: '/sm_RolakeAkinboroSecretary.webp'
     },
     {
         name: 'Aisha Al Hassan',
         office: 'Alternate Secretary',
-        picture: '/AishaAlHassanAlternateSecretary.jpg',
-        sm_picture: '/sm_AishaAlHassanAlternateSecretary.jpg'
+        picture: '/AishaAlHassanAlternateSecretary.webp',
+        sm_picture: '/sm_AishaAlHassanAlternateSecretary.webp'
     },
     {
         name: 'Jennifer Ben-Agande',
         office: 'Social Secretary',
-        picture: '/JenniferBen-AgandeSocialSecretary.jpg',
-        sm_picture: '/sm_JenniferBen-AgandeSocialSecretary.jpg'
+        picture: '/JenniferBen-AgandeSocialSecretary.webp',
+        sm_picture: '/sm_JenniferBen-AgandeSocialSecretary.webp'
     },
     {
         name: 'Simiat Suleiman',
         office: 'Treasurer',
-        picture: '/SimiatSulemanTreasurer.jpg',
-        sm_picture: '/sm_SimiatSulemanTreasurer.jpg'
+        picture: '/SimiatSulemanTreasurer.webp',
+        sm_picture: '/sm_SimiatSulemanTreasurer.webp'
     },
     {
         name: 'Mustafah Umar Ibrahim',
         office: 'Provost',
-        picture: '/MustafahUmarIbrahimProvost.jpg',
-        sm_picture: '/sm_MustafahUmarIbrahimProvost.jpg'
+        picture: '/MustafahUmarIbrahimProvost.webp',
+        sm_picture: '/sm_MustafahUmarIbrahimProvost.webp'
     },
     {
         name: 'Damilola Olatunji',
         office: 'Legal Adviser',
-        picture: '/DamilolaOlatunjiLegalAdviser.jpg',
-        sm_picture: '/sm_DamilolaOlatunjiLegalAdviser.jpg'
+        picture: '/DamilolaOlatunjiLegalAdviser.webp',
+        sm_picture: '/sm_DamilolaOlatunjiLegalAdviser.webp'
     },
     {
         name: 'Alice Ewa Henshaw',
         office: 'Member',
-        picture: '/AliceEwaHenshawMember.jpg',
-        sm_picture: '/sm_AliceEwaHenshawMember.jpg'
+        picture: '/AliceEwaHenshawMember.webp',
+        sm_picture: '/sm_AliceEwaHenshawMember.webp'
     },
     {
         name: 'Nadi Sochima Lynda',
         office: 'Member',
-        picture: '/NadiSochimaLyndaMember.jpg',
-        sm_picture: '/sm_NadiSochimaLyndaMember.jpg'
+        picture: '/NadiSochimaLyndaMember.webp',
+        sm_picture: '/sm_NadiSochimaLyndaMember.webp'
     }
 ]
