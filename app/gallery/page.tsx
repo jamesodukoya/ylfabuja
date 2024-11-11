@@ -55,8 +55,6 @@ function Gallery() {
         <a
           key={index}
           data-lg-size="1600-2400"
-        //   data-pinterest-text="Pin it2"
-        //   data-tweet-text="lightGallery slide  2"
           className="gallery__item"
           data-src={photo.image}
           data-sub-html={`<h4>${photo.caption}</h4>`}
@@ -70,7 +68,9 @@ function Gallery() {
       </LightGallery>
         </div>
     </div>
-  )
+    )
+    
+    return null
 }
 
 export default Gallery
