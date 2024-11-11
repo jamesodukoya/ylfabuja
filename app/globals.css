@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
+@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css'); */
+
+
 /* *{
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -52,6 +57,7 @@ body {
   color: white;
   background: #131313;
   font-family: "Mr-Eaves-XL", sans-serif;
+  min-height: 100vh;
   /* font-weight: 900; */
 }
 
@@ -390,6 +396,14 @@ p, .para {
 a:hover{
   color: #c9a66d;
   cursor: pointer;
+}
+
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.gallery__item img {
+  width: 100%;
 }
 
 @layer utilities {
