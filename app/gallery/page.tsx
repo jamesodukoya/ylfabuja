@@ -44,13 +44,14 @@ function Gallery() {
         elementClassNames={'gallery'}
         mobileSettings={{
           controls: false,
-          showCloseIcon: false,
+          showCloseIcon: true,
           download: false,
           rotate: false,
         }}
       >
         {GalleryItems.map((photo, index)=>(
         <a
+          key={index}
           data-lg-size="1600-2400"
         //   data-pinterest-text="Pin it2"
         //   data-tweet-text="lightGallery slide  2"
