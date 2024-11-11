@@ -11,6 +11,8 @@ import { GalleryItems } from '../(data)/Templates';
 function Gallery() {
 
     useEffect(() => {
+
+        if (typeof document !== "undefined") {
     fjGallery(document.querySelectorAll('.gallery'), {
       itemSelector: '.gallery__item',
       rowHeight: 280,
@@ -18,7 +20,7 @@ function Gallery() {
       gutter: 5,
       rowHeightTolerance: 0.1,
       calculateItemsHeight: false,
-    });
+    });}
   }, []);
 
   return (
