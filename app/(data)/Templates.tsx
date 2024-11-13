@@ -75,7 +75,7 @@ export const GalleryItems = [
     },
     {
         image: '/ChairmanAfamOsigwe.jpeg',
-        thumbnail: '/thumbChairmanAfamOsigwe.jpeg',
+        thumbnail: '/ChairmanAfamOsigwe.jpeg',
         caption: 'Chairman with President of the Nigerian Bar Association, MAZI Afam Osigwe'
     },
     {

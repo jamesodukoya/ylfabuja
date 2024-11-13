@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect } from 'react'
+import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Header from '../_components/Header'
 import fjGallery from 'flickr-justified-gallery';
 import LightGallery from 'lightgallery/react';
@@ -7,21 +7,9 @@ import lgZoom from 'lightgallery/plugins/zoom';
 import lgVideo from 'lightgallery/plugins/video';
 import 'lightgallery/css/lightgallery.css';
 import { GalleryItems } from '../(data)/Templates';
+import Script from 'next/script';
 
 function Gallery() {
-
-    useEffect(() => {
-
-        if (typeof document !== "undefined") {
-    fjGallery(document.querySelectorAll('.gallery'), {
-      itemSelector: '.gallery__item',
-      rowHeight: 280,
-      lastRow: 'start',
-      gutter: 5,
-      rowHeightTolerance: 0.1,
-      calculateItemsHeight: false,
-    });}
-  }, []);
 
   return (
     <div className=''>
@@ -66,11 +54,17 @@ function Gallery() {
         </a>
         ))}
       </LightGallery>
-        </div>
+      </div>
+      {/* <Script
+        src="https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2.1/dist/fjGallery.min.js"
+        strategy="lazyOnload"
+        onLoad={() =>
+          console.log(`script loaded correctly`)
+        }>
+      </Script> */}
+      <Script src='/fjGallery.js'></Script>
     </div>
-    )
-    
-    return null
+  )
 }
 
 export default Gallery

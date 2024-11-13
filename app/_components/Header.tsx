@@ -27,7 +27,7 @@ function Header() {
               <span className='text-3xl text-gold font-bold'>ABUJA</span>
             </div>
           </a>
-          <div id="menu-icon" onClick={toggleMenu} className={`toggle-nav ${open ? 'active':''} flex flex-col gap-2.5 lg:hidden`}>
+          <div id="menu-icon" onClick={toggleMenu} className={`toggle-nav ${open ? 'active':''} flex flex-col gap-2.5 lg:hidden cursor-pointer`}>
 						<span className="line line-1"></span>
 						<span className="line line-2"></span>
 						<span className="line line-3"></span>

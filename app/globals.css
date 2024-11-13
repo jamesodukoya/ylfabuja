@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lightgallery.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-zoom.css');
-@import url('https://cdn.jsdelivr.net/npm/lightgallery@2.4.0/css/lg-video.css'); */
 
 
 /* *{
@@ -175,6 +172,12 @@ h4 {
     line-height: 135%;
     text-transform: none;
     color: #fff
+}
+
+.lg-sub-html h4 {
+  font-family: 'Mr-Eaves-XL', sans-serif;
+  font-size: 18px!important;
+  font-weight: 400!important;
 }
 
 p, .para {
