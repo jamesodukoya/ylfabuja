@@ -49,7 +49,7 @@ function LawFirmList() {
                                     </MapContainer>
                                 </div>
                                 <h3 className='mt-5 line-clamp-1 text-center'>{firm.name}</h3>
-                                <a href={`http://maps.google.com/?q=${firm.address}`} target='_blank'><p className='small-gold line-clamp-1 text-center'>{firm.address}</p></a>
+                                <a href={`http://maps.google.com/?q=${firm.name}+${firm.address}`} target='_blank'><p className='small-gold line-clamp-1 text-center'>{firm.address}</p></a>
                                 <a href={`tel:0${firm.number}`} target='_blank'><p className='small-gold line-clamp-1 text-center'>{`${firm.number===""?"":`0${firm.number}`}`}</p></a>
                                 <a href={firm.website} target='_blank'><p className='small-gold text-center'>{`${firm.website===""?"":"visit website"}`}</p></a>
                             </div>
