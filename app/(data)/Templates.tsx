@@ -172,12 +172,6 @@ export const LawFirmsInAbuja: ({
     address: string;
     number: number;
     website: string;
-    geocode: LatLngExpression;
-} | {
-    name: string;
-    address: string;
-    number: string;
-    website: string;
     geocode: LatLngTuple;
 }| {
     name: string;
@@ -185,6 +179,12 @@ export const LawFirmsInAbuja: ({
     number: string;
     website: string;
     geocode: LatLng;
+}| {
+    name: string;
+    address: string;
+    number: string;
+    website: string;
+    geocode: LatLngExpression;
 })[] = [
   {
     name: "SILVERWRIT ATTORNEYS",
