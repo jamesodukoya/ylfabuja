@@ -1,3 +1,5 @@
+import { LatLng, LatLngExpression, LatLngTuple } from "leaflet";
+
 export const Executives = [
     {
         name: 'Najib A. Waziri',
@@ -165,7 +167,25 @@ export const GalleryItems = [
     },
 ]
 
-export const LawFirmsInAbuja = [
+export const LawFirmsInAbuja: ({
+    name: string;
+    address: string;
+    number: number;
+    website: string;
+    geocode: LatLngExpression;
+} | {
+    name: string;
+    address: string;
+    number: string;
+    website: string;
+    geocode: LatLngTuple;
+}| {
+    name: string;
+    address: string;
+    number: string;
+    website: string;
+    geocode: LatLng;
+})[] = [
   {
     name: "SILVERWRIT ATTORNEYS",
     address: "14 Alexandria Cres, Wuse 2, Abuja",
