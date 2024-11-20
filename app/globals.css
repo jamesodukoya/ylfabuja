@@ -441,9 +441,6 @@ a:hover{
 }
 
 .active {
-  /* background-color: #c9a66d; */
-  padding: 10px;
-  border: solid 0.1px #c9a66d;
   color: #c9a66d;
 }
 
