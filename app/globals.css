@@ -421,3 +421,43 @@ a:hover{
   width: 320px;
   overflow: hidden;
 }
+
+/* Pagination */
+.change-page {
+  border: 1px solid #444;
+  padding: 5px 30px;
+}
+
+.pagination {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 60px;
+  justify-content: center;
+  list-style-type: none;
+  position: relative;
+  width: 100%;
+}
+
+.active {
+  /* background-color: #c9a66d; */
+  padding: 10px;
+  border: solid 0.1px #c9a66d;
+  color: #c9a66d;
+}
+
+.page-item{
+  list-style: none;
+  padding: 2px 12px;
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  font-family: 'Ivy-Mode', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 135%;
+}
