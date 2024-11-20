@@ -47,7 +47,7 @@ function LawFirmList() {
   return (
     <div ref={currentFirms}>
         <div className='relative z-10 flex justify-center'>
-            <input type='text' placeholder='Search by name or location of firm' className='bg-transparent w-full md:w-2/3 outline focus:outline-gold outline-1 h-10 rounded-lg pl-4 mb-10 text-lg mt-5' onChange={takeInput}/>
+            <input type='search' placeholder='Search by name or location of firm' className='bg-transparent w-full md:w-2/3 outline focus:outline-gold outline-1 h-10 rounded-lg pl-4 mb-10 text-lg mt-5' onChange={takeInput}/>
         </div>
         <div className='flex flex-wrap z-10 relative justify-center'>
             {currentItems && currentItems.map((firm, index) => (
