@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { LawFirmsInAbuja } from '../(data)/Templates'
 import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 import "leaflet/dist/leaflet.css";
@@ -31,17 +31,18 @@ function LawFirmList() {
     const currentItems = firmList.slice(itemOffset, endOffset);
     const pageCount = Math.ceil(firmList.length / itemsPerPage);
 
+    const currentFirms = useRef<HTMLDivElement | null>(null);
+
     const handlePageClick = (event:any) => {
     const newOffset = (event.selected * itemsPerPage) % firmList.length;
     setItemOffset(newOffset);
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth' })
-    // $('html, body').animate({ scrollTop: 0 }, 'fast');
+    currentFirms.current?.scrollIntoView({behavior: 'smooth' })
   };
 
   return (
-    <div>
+    <div ref={currentFirms}>
         <div className='relative z-10 flex justify-center'>
-            <input type='text' placeholder='Search by name or location of firm' className='bg-transparent w-full md:w-2/3 outline focus:outline-gold outline-1 h-10 rounded-lg pl-4 mb-10 text-lg' onChange={(event)=>setSearchInput(event.target.value)}/>
+            <input type='text' placeholder='Search by name or location of firm' className='bg-transparent w-full md:w-2/3 outline focus:outline-gold outline-1 h-10 rounded-lg pl-4 mb-10 text-lg mt-5' onChange={(event)=>setSearchInput(event.target.value)}/>
         </div>
         <div className='flex flex-wrap z-10 relative justify-center'>
             {currentItems && currentItems.map((firm, index) => (
