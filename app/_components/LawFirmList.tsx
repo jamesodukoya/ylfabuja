@@ -28,16 +28,14 @@ function LawFirmList() {
     const [itemOffset, setItemOffset] = useState(0);
 
     const endOffset = itemOffset + itemsPerPage;
-    console.log(`Loading items from ${itemOffset} to ${endOffset}`);
     const currentItems = firmList.slice(itemOffset, endOffset);
     const pageCount = Math.ceil(firmList.length / itemsPerPage);
 
     const handlePageClick = (event:any) => {
     const newOffset = (event.selected * itemsPerPage) % firmList.length;
-    console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
-    );
     setItemOffset(newOffset);
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth' })
+    // $('html, body').animate({ scrollTop: 0 }, 'fast');
   };
 
   return (

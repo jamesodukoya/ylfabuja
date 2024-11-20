@@ -425,7 +425,7 @@ a:hover{
 /* Pagination */
 .change-page {
   border: 1px solid #444;
-  padding: 5px 30px;
+  padding: 5px 25px;
 }
 
 .pagination {
@@ -446,9 +446,9 @@ a:hover{
 
 .page-item{
   list-style: none;
-  padding: 2px 12px;
-  height: 36px;
-  width: 36px;
+  padding: 2px 8px;
+  height: 26px;
+  width: 26px;
   display: flex;
   justify-content: center;
   align-items: center;
