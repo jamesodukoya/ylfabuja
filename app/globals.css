@@ -462,9 +462,9 @@ a:hover{
 }
 
 /* Fix zoom in on iOS */
-/* .no-touch .hero{
+.no-touch .hero{
   background-attachment: fixed;
-} */
+}
 
 .fixed_bg {
     /* margin-right: 120px; */
@@ -484,29 +484,29 @@ a:hover{
     }
 } */
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .fixed_bg {
-        background-position:top right -450px !important
+        background-position:top right 0px !important
     }
-} */
+}
 
 /* @media screen and (max-width: 768px) {
     .fixed_bg {
         margin-right:80px
     }
-}
-
-@media screen and (max-width: 667px) {
-    .fixed_bg {
-        margin-right:0
-    }
 } */
 
 @media screen and (max-width: 667px) {
     .fixed_bg {
-        background-position:center center!important;
-        background-size: 350%!important;
-        background-repeat: no-repeat!important;
+        margin-right:0;
+        background-position:top right -450px !important
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .fixed_bg {
+        background-position:center center;
+        background-size: 350%
     }
 }
 
