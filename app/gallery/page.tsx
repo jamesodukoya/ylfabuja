@@ -1,70 +1,31 @@
 "use client"
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import React from 'react'
 import Header from '../_components/Header'
-import fjGallery from 'flickr-justified-gallery';
-import LightGallery from 'lightgallery/react';
-import lgZoom from 'lightgallery/plugins/zoom';
-import lgVideo from 'lightgallery/plugins/video';
-import 'lightgallery/css/lightgallery.css';
-import { GalleryItems } from '../(data)/Templates';
-import Script from 'next/script';
+import "leaflet/dist/leaflet.css";
+import dynamic from 'next/dynamic'
 
-function Gallery() {
+const Gallery = dynamic(() => import('@/app/_components/Gallery'), {
+    ssr: false // This ensures the component is not SSR'd
+});
+
+
+function Test() {
 
   return (
-    <div className=''>
+    <div>
         <div className="relative z-10">
-            <section className="soon bg-cover bg-center bg-fixed">
+            <section className="soon bg-cover min-h-screen bg-center bg-fixed">
                 <Header />
-                <div className="xl:px-20 px-5 md:px-10 pt-28 min-h-[400px] flex items-center justify-center">
-                    <div className='py-32 relative z-10'>
-                        <h1 className='text-center'>Gallery</h1>
+                <div className="xl:px-20 pt-28 px-5 md:px-10">
+                    <div className='flex justify-center'>
+                        <h1 className='lg:py-32 py-20 z-10 text-center'> Gallery</h1>
                     </div>
+                    <Gallery />
                 </div>
             </section>
         </div>
-        <div className='xl:px-20 px-5 md:px-10'>
-            <LightGallery
-        plugins={[lgZoom, lgVideo]}
-        mode="lg-fade"
-        pager={true}
-        thumbnail={true}
-        galleryId={'nature'}
-        autoplayFirstVideo={false}
-        elementClassNames={'gallery'}
-        mobileSettings={{
-          controls: false,
-          showCloseIcon: true,
-          download: false,
-          rotate: false,
-        }}
-      >
-        {GalleryItems.map((photo, index)=>(
-        <a
-          key={index}
-          data-lg-size="1600-2400"
-          className="gallery__item"
-          data-src={photo.image}
-          data-sub-html={`<h4>${photo.caption}</h4>`}
-        >
-          <img
-            className="img-responsive"
-            src={photo.thumbnail}
-          />
-        </a>
-        ))}
-      </LightGallery>
-      </div>
-      {/* <Script
-        src="https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2.1/dist/fjGallery.min.js"
-        strategy="lazyOnload"
-        onLoad={() =>
-          console.log(`script loaded correctly`)
-        }>
-      </Script> */}
-      <Script src='/fjGallery.js'></Script>
     </div>
   )
 }
 
-export default Gallery
+export default Test

@@ -70,6 +70,1011 @@ export const Executives = [
 ]
 
 export const GalleryItems = [
+  {
+    image: "/YLFSummitAbuja/YLFSummit2024.png",
+    thumbnail: "",
+    caption: ""
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0001.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0002.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0003.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0004.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0005.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0006.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0007.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0008.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0009.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0010.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0011.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0012.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0013.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0014.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0015.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0016.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0017.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0018.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0019.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0020.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0021.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0022.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0023.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0024.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0025.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0026.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0027.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0028.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0029.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0030.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0031.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0032.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0033.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0034.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0035.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0036.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0037.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0038.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0039.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0040.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0041.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0042.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0043.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0044.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0045.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0046.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0047.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0048.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0049.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0050.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0051.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0052.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0053.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0054.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0055.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0056.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0057.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0058.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0059.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0060.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0061.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0062.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0063.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0064.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0065.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0066.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0067.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0068.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0069.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0070.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0071.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0072.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0073.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0074.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0075.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0076.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0077.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0078.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0079.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0080.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0081.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0082.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0083.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0084.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0085.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0086.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0087.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0088.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0089.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0090.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0091.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0092.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0093.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0094.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0095.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0096.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0097.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0098.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0099.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0100.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0101.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0102.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0103.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0104.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0105.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0106.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0107.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0108.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0109.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0110.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0111.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0112.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0113.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0114.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0115.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0116.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0117.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0118.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0119.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0120.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0121.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0122.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0123.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0124.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0125.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0126.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0127.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0128.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0129.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0130.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0131.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0132.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0133.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0134.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0135.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0136.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0137.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0138.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0139.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0140.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0141.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0142.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0143.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0144.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0145.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0146.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0147.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0148.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0149.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0150.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0151.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0152.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0153.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0154.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0155.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0156.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0157.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0158.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0159.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0160.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0161.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0162.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0163.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0164.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0165.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0166.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0167.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0168.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0169.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0170.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0171.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0172.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0173.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0174.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0175.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0176.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0177.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0178.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0179.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0180.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0181.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0182.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0183.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0184.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0185.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0186.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0187.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0188.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0189.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0190.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0191.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0192.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0193.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0194.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0195.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0196.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0197.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0198.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+  {
+    image: "/YLFSummitAbuja/IMG-20241127-WA0199.webp",
+    thumbnail: "",
+    caption: "At the NBA YLF Summit, Abuja 2024"
+  },
+    {
+        image: '/Miscellaneous_Gallery.png',
+        thumbnail: '/thumbChairmanELawyersSummit.jpeg',
+        caption: ''
+    },
     {
         image: '/ChairmanELawyersSummit.jpeg',
         thumbnail: '/thumbChairmanELawyersSummit.jpeg',
