@@ -464,6 +464,11 @@ a:hover{
   width: auto;
 }
 
+/* Fix zoom in on iOS */
+.no-touch .hero{
+  background-attachment: fixed;
+}
+
 /* React Grid Gallery */
 
 .ReactGridGallery_tile{

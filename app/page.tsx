@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <div className="">
       <div className="relative">
-        <section className={`hero bg-cover min-h-screen bg-center bg-fixed pb-[100px] transition-all duration-[1500ms] ${fadeIn ? "bg-opacity-100" : "bg-opacity-0"
+        <section className={`hero bg-cover bg-no-repeat min-h-screen bg-center pb-[100px] transition-all duration-[1500ms] ${fadeIn ? "bg-opacity-100" : "bg-opacity-0"
           }`} style={{
             backgroundImage: `url(${images[currentIndex]})`
           }}>
@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <HomeAbout />
       <HomeChairman />
-      
+
     </div>
   );
 }
