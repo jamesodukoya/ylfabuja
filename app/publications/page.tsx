@@ -42,14 +42,14 @@ export default async function Page({
   return (
     <div className="relative z-10">
       <section className="soon bg-cover bg-center bg-fixed">
-          <Header />
-          <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
-              <div className='py-32 relative z-10'>
-                  <h1 className='text-center'>Publications</h1>
-              </div>
+        <Header />
+        <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
+          <div className='py-32 relative z-10'>
+            <h1 className='text-center'>Publications</h1>
           </div>
+        </div>
       </section>
-      <Section>
+      <Section className="bg-foreground">
         <Container>
           <FilterPosts
             authors={authors}
@@ -61,8 +61,8 @@ export default async function Page({
           />
 
           {paginatedPosts.length > 0 ? (
-            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 z-0">
-              {paginatedPosts.map((post: any, index:number) => (
+            <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 z-0">
+              {paginatedPosts.map((post: any, index: number) => (
                 <PostCard key={post.id} post={post} />
               ))}
             </div>
@@ -77,29 +77,27 @@ export default async function Page({
               <PaginationContent>
                 <PaginationItem>
                   <PaginationPrevious
-                    className={page === 1 ? "pointer-events-none text-muted" : ""}
-                    href={`?page=${Math.max(page - 1, 1)}${
-                      category ? `&category=${category}` : ""
-                    }${author ? `&author=${author}` : ""}${
-                      tag ? `&tag=${tag}` : ""
-                    }`}
+                    className={
+                      `${page === totalPages ? "pointer-events-none text-muted" : ""} bg-background`
+                    }
+                    href={`?page=${Math.max(page - 1, 1)}${category ? `&category=${category}` : ""
+                      }${author ? `&author=${author}` : ""}${tag ? `&tag=${tag}` : ""
+                      }`}
                   />
                 </PaginationItem>
                 <PaginationItem>
                   <PaginationLink href={`?page=${page}`}>
-                    <span className="page-item">{page}</span>
+                    <span className="page-item text-background hover:text-gold">{page}</span>
                   </PaginationLink>
                 </PaginationItem>
                 <PaginationItem>
                   <PaginationNext
                     className={
-                      page === totalPages ? "pointer-events-none text-muted" : ""
+                      `${page === totalPages ? "pointer-events-none text-muted" : ""} bg-background`
                     }
-                    href={`?page=${Math.min(page + 1, totalPages)}${
-                      category ? `&category=${category}` : ""
-                    }${author ? `&author=${author}` : ""}${
-                      tag ? `&tag=${tag}` : ""
-                    }`}
+                    href={`?page=${Math.min(page + 1, totalPages)}${category ? `&category=${category}` : ""
+                      }${author ? `&author=${author}` : ""}${tag ? `&tag=${tag}` : ""
+                      }`}
                   />
                 </PaginationItem>
               </PaginationContent>

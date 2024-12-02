@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.nbaylfabuja.org/"),
 };
 
-export const revalidate = 1800 // revalidate at most every hour
+export const revalidate = 1800 // revalidate at most every 30 mins
 
 export default function RootLayout({
   children,

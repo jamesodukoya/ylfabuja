@@ -21,27 +21,29 @@ export default async function PostCard({ post }: { post: Post }) {
   const category = await getCategoryById(post.categories[0]);
 
   return (
-    <Link
-      href={`/publications/${post.slug}`}
+    <div
+      // href={`/publications/${post.slug}`}
       className={cn(
-        "border p-4 bg-accent/30 rounded-lg group flex justify-between flex-col not-prose gap-8",
-        "hover:bg-accent/75 transition-all"
+        " p-4 bg-accent/30 group flex justify-between flex-col not-prose gap-14",
+        "hover:bg-accent/75 transition-all bg-background"
       )}
     >
       <div className="flex flex-col gap-4">
-        <div className="h-48 w-full overflow-hidden relative rounded-md border flex items-center justify-center">
-          <Image
-            className="h-full w-full object-cover"
-            src={`${media.source_url!==undefined?media.source_url:"/ylf-abuja-executives.webp"}`}
-            alt={post.title.rendered}
-            width={400}
-            height={200}
-          />
+        <div className="h-48 w-full overflow-hidden relative border flex items-center justify-center">
+          <a href={`/publications/${post.slug}`}>
+            <Image
+              className="h-full w-full object-cover"
+              src={`${media.source_url !== undefined ? media.source_url : "/ylf-abuja-executives.webp"}`}
+              alt={post.title.rendered}
+              width={400}
+              height={200}
+            />
+          </a>
         </div>
-        <h2
+        <a href={`/publications/${post.slug}`}><h2
           dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-          // className="text-xl text-primary font-medium group-hover:underline decoration-muted-foreground underline-offset-4 decoration-dotted transition-all"
-        ></h2>
+        // className="text-xl text-primary font-medium group-hover:underline decoration-muted-foreground underline-offset-4 decoration-dotted transition-all"
+        ></h2></a>
         <div
           className="text-sm"
           dangerouslySetInnerHTML={{
@@ -55,10 +57,10 @@ export default async function PostCard({ post }: { post: Post }) {
       <div className="flex flex-col gap-4">
         <hr />
         <div className="flex justify-between items-center text-xs">
-          <p>{category.name}</p>
+          <a href={`/publications/?category=${category.id}`}><p>{category.name}</p></a>
           <p>{date}</p>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }
