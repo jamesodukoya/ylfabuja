@@ -28,31 +28,39 @@ function GalleryPage() {
     const [images, setImages] = useState<{ src: string; width: number; height: number; caption: string; alt: string; }[]>([])
 
     useEffect(() => {
-        async function loadImages() {
-            const Images: { src: string; width: number; height: number; caption: string; alt: string;}[] = [];
+    async function loadImages() {
         const promises = currentItems.map((item, index) => {
-            return new Promise<void>((resolve) => {
+            return new Promise<{ index: number; image: { src: string; width: number; height: number; caption: string; alt: string; } }>((resolve) => {
                 const img = new Image();
                 img.src = item.image;
                 img.onload = () => {
-                    Images.push({
-                        src: item.image,
-                        width: img.width,
-                        height: img.height,
-                        caption: item.caption,
-                        alt: item.caption
+                    resolve({
+                        index,
+                        image: {
+                            src: item.image,
+                            width: img.width,
+                            height: img.height,
+                            caption: item.caption,
+                            alt: item.caption,
+                        },
                     });
-                    resolve();
                 };
             });
         });
 
-        await Promise.all(promises);
-        setImages(Images);
+        const results = await Promise.all(promises);
+
+        // Sort results by index to ensure order
+        const sortedImages = results
+            .sort((a, b) => a.index - b.index)
+            .map((result) => result.image);
+
+        setImages(sortedImages);
     }
 
     loadImages();
-    }, [itemOffset])
+}, [itemOffset]);
+
 
     // Lightbox
     const [index, setIndex] = useState(-1);
