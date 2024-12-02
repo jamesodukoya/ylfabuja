@@ -504,9 +504,9 @@ a:hover{
 
 @media screen and (max-width: 667px) {
     .fixed_bg {
-        background-position:center center;
-        background-size: 350%;
-        background-repeat: no-repeat;
+        background-position:center center!important;
+        background-size: 350%!important;
+        background-repeat: no-repeat!important;
     }
 }
 
