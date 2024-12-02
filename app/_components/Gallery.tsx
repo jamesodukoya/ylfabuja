@@ -30,7 +30,7 @@ function GalleryPage() {
     useEffect(() => {
         async function loadImages() {
             const Images: { src: string; width: number; height: number; caption: string; alt: string;}[] = [];
-        const promises = currentItems.map((item) => {
+        const promises = currentItems.map((item, index) => {
             return new Promise<void>((resolve) => {
                 const img = new Image();
                 img.src = item.image;
