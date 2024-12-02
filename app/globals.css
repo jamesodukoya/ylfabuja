@@ -462,9 +462,9 @@ a:hover{
 }
 
 /* Fix zoom in on iOS */
-.no-touch .hero{
+/* .no-touch .hero{
   background-attachment: fixed;
-}
+} */
 
 .fixed_bg {
     /* margin-right: 120px; */
