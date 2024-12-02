@@ -121,9 +121,6 @@ body {
   transition: all 0.4s;
 }
 
-.hero {
-  background-image: url(/ylf-abuja-home-hero.webp);
-}
 
 .hero:after{
   background: -moz-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 100%);
@@ -360,7 +357,7 @@ p, .para {
   background-image: url('/about-ylf-abuja.webp');
 }
 
-.about:after, .exec:after {
+.about:after, .exec:after, .page_overlay:after {
   background: -moz-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 40%);
   background: -webkit-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 40%);
   background: linear-gradient(to bottom, rgba(19,19,19,0) 1%, #131313 40%);
@@ -374,7 +371,7 @@ p, .para {
   z-index: 0!important
 }
 
-.soon:after {
+.soon:after, .section_overlay:after {
   background: -moz-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 100%);
   background: -webkit-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 100%);
   background: linear-gradient(to bottom, rgba(19,19,19,0) 1%, #131313 100%);
@@ -469,8 +466,60 @@ a:hover{
   background-attachment: fixed;
 }
 
+.fixed_bg {
+    /* margin-right: 120px; */
+    height: auto;
+    padding-top: 0;
+    /* align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left top
+}
+
+/* @media screen and (max-width: 1200px) {
+    .fixed_bg {
+        margin-right:80px
+    }
+} */
+
+/* @media screen and (max-width: 1024px) {
+    .fixed_bg {
+        background-position:top right -450px !important
+    }
+} */
+
+/* @media screen and (max-width: 768px) {
+    .fixed_bg {
+        margin-right:80px
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .fixed_bg {
+        margin-right:0
+    }
+} */
+
+@media screen and (max-width: 667px) {
+    .fixed_bg {
+        background-position:center center;
+        background-size: 350%;
+        background-repeat: no-repeat;
+    }
+}
+
 /* React Grid Gallery */
 
 .ReactGridGallery_tile{
   background: transparent!important;
 }
+
+
+
+
+
+/* page_overlay
+section_overlay
+fixed_bg */
