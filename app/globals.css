@@ -484,9 +484,9 @@ a:hover{
     }
 } */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 667px) {
     .fixed_bg {
-        background-position:top right 0px !important
+        background-position:top right -450px !important
     }
 }
 
@@ -499,7 +499,6 @@ a:hover{
 @media screen and (max-width: 667px) {
     .fixed_bg {
         margin-right:0;
-        background-position:top right -450px !important
     }
 }
 
