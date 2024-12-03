@@ -41,7 +41,7 @@ export default async function Page({
 
   return (
     <div className="relative z-10">
-      <section className="soon bg-cover bg-center bg-fixed">
+      <section className="soon fixed_bg">
         <Header />
         <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
           <div className='py-32 relative z-10'>

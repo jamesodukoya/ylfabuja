@@ -11,21 +11,21 @@ const LawFirmList = dynamic(() => import('../_components/LawFirmList'), {
 
 function LawFirms() {
 
-  return (
-    <div>
-        <div className="relative z-10">
-            <section className="exec bg-cover min-h-screen bg-center bg-fixed">
-                <Header />
-                <div className="xl:px-20 pt-28 px-5 md:px-10">
-                    <div className='flex justify-center'>
-                        <h1 className='lg:py-32 py-20 z-10 text-center'> Law Firms in Abuja</h1>
+    return (
+        <div>
+            <div className="relative z-10">
+                <section className="exec fixed_bg min-h-screen">
+                    <Header />
+                    <div className="xl:px-20 pt-28 px-5 md:px-10">
+                        <div className='flex justify-center'>
+                            <h1 className='lg:py-32 py-20 z-10 text-center'> Law Firms in Abuja</h1>
+                        </div>
+                        <LawFirmList />
                     </div>
-                    <LawFirmList />
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default LawFirms

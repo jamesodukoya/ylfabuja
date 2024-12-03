@@ -14,11 +14,11 @@ function Test() {
     return (
         <div>
             <div className="relative z-10">
-                <section className="exec bg-cover min-h-screen bg-center bg-fixed">
+                <section className="exec fixed_bg min-h-screen">
                     <Header />
                     <div className="xl:px-20 pt-28 px-5 md:px-10">
                         <div className='flex justify-center'>
-                            <h1 className='lg:py-32 py-20 z-10 text-center'> Gallery</h1>
+                            <h1 className='lg:py-32 pt-20 pb-5 z-10 text-center'> Gallery</h1>
                         </div>
                         <Gallery />
                     </div>

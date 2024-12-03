@@ -467,13 +467,8 @@ a:hover{
 } */
 
 .fixed_bg {
-    /* margin-right: 120px; */
     height: auto;
     padding-top: 0;
-    /* align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap; */
-    /* background-size: cover; */
     background-attachment: fixed;
     background-position: left top
 }
@@ -484,27 +479,22 @@ a:hover{
     }
 } */
 
-@media screen and (max-width: 667px) {
+@media screen and (min-width: 668px) {
     .fixed_bg {
-        background-position:top right -450px !important
+        background-position:center center;
+        background-size: cover;
     }
 }
 
-/* @media screen and (max-width: 768px) {
+/* @media screen and (max-width: 667px) {
     .fixed_bg {
-        margin-right:80px
+        margin-right:0;
     }
 } */
 
 @media screen and (max-width: 667px) {
     .fixed_bg {
-        margin-right:0;
-    }
-}
-
-@media screen and (max-width: 667px) {
-    .fixed_bg {
-        background-position:center center;
+        background-position:top right -450px !important;
         background-size: 350%
     }
 }
