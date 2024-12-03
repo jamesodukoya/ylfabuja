@@ -94,7 +94,7 @@ function GalleryPage() {
 
     return (
         <div>
-            <div ref={currentGalleryItems} className='relative z-10 xl:px-0 px-3'>
+            <div ref={currentGalleryItems} className='relative z-10 xl:px-0 px-3 py-5'>
                 <Gallery
                     images={images}
                     onClick={handleClick}

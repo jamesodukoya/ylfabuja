@@ -112,7 +112,7 @@ export default function FilterPosts({
         </SelectContent>
       </Select>
 
-      <Button variant="outline" onClick={handleResetFilters}>
+      <Button variant="outline" onClick={handleResetFilters} className="text-md">
         Reset Filters
       </Button>
     </div>

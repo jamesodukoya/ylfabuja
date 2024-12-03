@@ -19,13 +19,14 @@ import PostCard from "@/components/post-card";
 import FilterPosts from "./filter";
 import Header from "../_components/Header";
 
-export default async function Page({
+export default async function Publications({
   searchParams,
 }: {
   searchParams: { [key: string]: string | undefined };
 }) {
   const { author, tag, category, page: pageParam } = searchParams;
   const posts = await getAllPosts({ author, tag, category });
+
   const authors = await getAllAuthors();
   const tags = await getAllTags();
   const categories = await getAllCategories();
@@ -41,7 +42,7 @@ export default async function Page({
 
   return (
     <div className="relative z-10">
-      <section className="soon fixed_bg">
+      <section className="soon publications section_bg">
         <Header />
         <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
           <div className='py-32 relative z-10'>

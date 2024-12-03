@@ -393,6 +393,14 @@ p, .para {
   background-image: url('/nba-ylf-abuja-coming-soon.webp');
 }
 
+.news-events{
+  background-image: url('/news-events.webp')!important;
+}
+
+.publications{
+  background-image: url('/publications.webp')!important;
+}
+
 a:hover{
   color: #c9a66d;
   cursor: pointer;
@@ -466,36 +474,31 @@ a:hover{
   background-attachment: fixed;
 } */
 
-.fixed_bg {
+.fixed_bg, .section_bg {
     height: auto;
     padding-top: 0;
     background-attachment: fixed;
     background-position: left top
 }
 
-/* @media screen and (max-width: 1200px) {
-    .fixed_bg {
-        margin-right:80px
-    }
-} */
-
 @media screen and (min-width: 668px) {
-    .fixed_bg {
+    .fixed_bg, .section_bg {
         background-position:center center;
         background-size: cover;
     }
 }
 
-/* @media screen and (max-width: 667px) {
-    .fixed_bg {
-        margin-right:0;
-    }
-} */
-
 @media screen and (max-width: 667px) {
     .fixed_bg {
         background-position:top right -450px !important;
         background-size: 350%
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .section_bg {
+        background-position:top left -50px!important;
+        background-size: 150%
     }
 }
 

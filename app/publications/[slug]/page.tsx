@@ -5,13 +5,14 @@ import {
   getCategoryById,
 } from "@/lib/wordpress";
 
-import { Section, Container, Article, Main } from "@/components/craft";
+import { Section, Container, Article, } from "@/components/craft";
 import { Metadata } from "next";
 import { badgeVariants } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
 import Link from "next/link";
 import Balancer from "react-wrap-balancer";
+import Header from "@/app/_components/Header";
 
 export async function generateMetadata({
   params,
@@ -37,42 +38,45 @@ export default async function Page({ params }: { params: { slug: string } }) {
   const category = await getCategoryById(post.categories[0]);
 
   return (
-    <Section>
-      <Container>
-        <h1>
-          <Balancer>
-            <span
-              dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-            ></span>
-          </Balancer>
-        </h1>
+    <div>
+      <section className="soon section_bg" style={{
+        backgroundImage: `url(${featuredMedia.source_url !== undefined ? featuredMedia.source_url : "/publications.webp"})`
+      }}>
+        <Header />
+        <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
+          <div className='py-32 relative z-10'>
+            <h1 className='text-center'>
+              <Balancer>
+                <span
+                  dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                ></span>
+              </Balancer>
+            </h1>
+          </div>
+        </div>
+      </section>
+      <Section className="bg-foreground">
+        <Container>
+          <div className="flex justify-between gap-4 text-normal items-center mb-4">
+            <h5 className="text-background">
+              Published {date} by{" "}
+              {author.name && (
+                <span>
+                  <a href={`./?author=${author.id}`} className="underline">{author.name}</a>{" "}
+                </span>
+              )}
+            </h5>
+            <Link
+              href={`./?category=${category.id}`}
+              className={cn(badgeVariants({ variant: "outline" }), "not-prose text-nowrap hover:border-gold text-background text-[14px] border-background")}
+            >
+              {category.name}
+            </Link>
+          </div>
 
-        <div className="flex justify-between items-center gap-4 text-sm mb-4">
-          <h5>
-            Published {date} by{" "}
-            {author.name && (
-              <span>
-                <a href={`./?author=${author.id}`}>{author.name}</a>{" "}
-              </span>
-            )}
-          </h5>
-          <Link
-            href={`./?category=${category.id}`}
-            className={cn(badgeVariants({ variant: "outline" }), "not-prose")}
-          >
-            {category.name}
-          </Link>
-        </div>
-        <div className="h-96 my-12 md:h-[560px] overflow-hidden flex items-center justify-center border rounded-lg bg-accent/25">
-          {/* eslint-disable-next-line */}
-          <img
-            className="w-full bg-cover"
-            src={`${featuredMedia.source_url!==undefined?featuredMedia.source_url:"/ylf-abuja-executives.webp"}`}
-            alt={post.title.rendered}
-          />
-        </div>
-        <Article dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
-      </Container>
-    </Section>
+          <Article dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+        </Container>
+      </Section>
+    </div>
   );
 }

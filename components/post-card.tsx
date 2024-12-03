@@ -40,10 +40,7 @@ export default async function PostCard({ post }: { post: Post }) {
             />
           </a>
         </div>
-        <a href={`/publications/${post.slug}`}><h2
-          dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-        // className="text-xl text-primary font-medium group-hover:underline decoration-muted-foreground underline-offset-4 decoration-dotted transition-all"
-        ></h2></a>
+        <h2><a href={`/publications/${post.slug}`} dangerouslySetInnerHTML={{ __html: post.title.rendered }}></a></h2>
         <div
           className="text-sm"
           dangerouslySetInnerHTML={{
