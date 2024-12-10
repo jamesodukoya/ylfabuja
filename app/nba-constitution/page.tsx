@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Header from '../_components/Header'
 
@@ -12,6 +13,16 @@ function NBAConstitution() {
                             <h1 className='text-center'>Constitution of the NBA</h1>
                             <p className='small-gold text-center'> Coming soon</p>
                         </div>
+                    </div>
+                    <div className='flex justify-center'>
+                        <iframe
+                            className='h-screen relative z-10 max-w-[90%]'
+                            src=
+                            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf#zoom=100"
+                            height="500"
+                            width="800"
+                        >
+                        </iframe>
                     </div>
                 </section>
             </div>
