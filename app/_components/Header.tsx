@@ -52,7 +52,7 @@ function Header() {
               <a href='https://www.nigerianbar.org.ng/' target="_blank" className='sub-menu hover:text-gold hover:translate-x-3 lg:pl-0 pl-3'>Visit NBA Website</a>
             </div>
           </div>
-          <a href='/publications' className={`lg:border-0 lg:w-1/5 border-b border-gold w-full py-3 lg:py-0 hover:text-gold ${path == "/publications" && 'text-gold'} navbar`}>PUBLICATIONS</a>
+          <a href='/publications' className={`lg:border-0 lg:w-1/5 border-b border-gold w-full py-3 lg:py-0 hover:text-gold ${path.includes("/publications") && 'text-gold'} navbar`}>PUBLICATIONS</a>
           <a href='/news-events' className={`lg:border-0  border-b border-gold w-full py-3 lg:py-0 hover:text-gold ${path == "/news-events" && 'text-gold'} navbar`}>NEWS & EVENTS</a>
         </div>
       </header>

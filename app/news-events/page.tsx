@@ -21,7 +21,7 @@ export default async function NewsEvents({
     searchParams: { [key: string]: string | undefined };
 }) {
     const { author, tag, category, page: pageParam } = searchParams;
-    const posts = (await getAllPosts({ author, tag, category })).filter((post) => post.categories.includes(7));
+    const posts = (await getAllPosts({ author, tag, category })).filter((post) => post.categories.find((cat) => cat === 7));
 
     const page = pageParam ? parseInt(pageParam, 10) : 1;
     const postsPerPage = 9;
