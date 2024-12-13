@@ -1,75 +1,9 @@
 'use client'
-import React, { useEffect } from 'react'
+import React from 'react'
 import Header from '../_components/Header'
 import Script from 'next/script'
 
 function NBAConstitution() {
-
-    useEffect(() => {
-        const script = document.createElement("script");
-        script.src =
-            "https://documentcloud.adobe.com/view-sdk/main.js";
-        script.async = true;
-        document.body.append(script);
-
-        document.addEventListener("adobe_dc_view_sdk.ready",
-            function () {
-                const adobeDCView = new AdobeDC.View({
-                    clientId: "50634c7ad18942388ecd45abe14999c2",
-                    divId: "adobe-dc-view",
-                });
-
-                adobeDCView.previewFile(
-                    {
-                        content: {
-                            location: {
-                                url: `https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf`,
-                            },
-                        },
-                        metaData: {
-                            fileName:
-                                "Bodea Brochure.pdf"
-                        },
-                    },
-                    {
-                        embedMode: "SIZED_CONTAINER",
-                        //   showAnnotationTools: false,
-                        showPrintPDF: true,
-                        showDownloadPDF: true,
-                        defaultViewMode: "FIT_WIDTH",
-                        enableLinearization: true,
-                    }
-                );
-
-                // Listen to events
-                const eventsOptions = {
-                    listenOn: [
-                        AdobeDC.View.Enum.Events.APP_RENDERING_DONE,
-                        AdobeDC.View.Enum.Events.APP_RENDERING_FAILED,
-                    ],
-                    enableFilePreviewEvents: true,
-                };
-
-                adobeDCView.registerCallback(
-                    AdobeDC.View.Enum.CallbackType.EVENT_LISTENER,
-                    function (event) {
-                        switch (event.type) {
-                            case "APP_RENDERING_DONE":
-                                // success handlers
-                                break;
-                            case "APP_RENDERING_FAILED":
-                                // handle errors here
-                                break;
-                            //case "DOCUMENT_DOWNLOAD":
-                            //  break;
-                        }
-                    },
-                    eventsOptions
-                );
-            });
-    }, []);
-
-
     return (
         <div>
             <div className="relative z-10">
@@ -86,8 +20,8 @@ function NBAConstitution() {
                     </div>
                 </section>
             </div>
-            {/* <Script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></Script>
-            <Script src='/js/adobereader.js'></Script> */}
+            <Script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></Script>
+            <Script src='/js/adobereader.js'></Script>
         </div>
     )
 }
