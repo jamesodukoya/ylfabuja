@@ -1,7 +1,7 @@
 document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "50634c7ad18942388ecd45abe14999c2", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"}},
+			content:{location: {url: "NBAConstitution2021.pdf"}},
 			metaData:{fileName: "Bodea Brochure.pdf"}
 		}, {embedMode: "SIZED_CONTAINER"});
 });
