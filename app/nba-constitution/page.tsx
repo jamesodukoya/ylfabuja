@@ -16,7 +16,7 @@ function NBAConstitution() {
                         </div>
                     </div>
                     <div className='flex justify-center relative z-10'>
-                        <div id="adobe-dc-view" ></div>
+                        <div id="adobe-dc-view" className='w-[92%] h-screen xl:max-w-[1200px]'></div>
                     </div>
                 </section>
             </div>
