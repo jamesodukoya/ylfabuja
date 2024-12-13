@@ -5,6 +5,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
 			metaData:{fileName: "Bodea Brochure.pdf"}
 		}, {
 			embedMode: "IN_LINE",
+			enableLinearization: true,
 			// defaultViewMode: "FIT_PAGE",
 		});
 });
