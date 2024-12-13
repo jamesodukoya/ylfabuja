@@ -4,8 +4,8 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
 			content:{location: {url: "NBAConstitution2021.pdf"}},
 			metaData:{fileName: "Bodea Brochure.pdf"}
 		}, {
-			embedMode: "FULL_WINDOW",
-			defaultViewMode: "FIT_PAGE",
+			embedMode: "IN_LINE",
+			// defaultViewMode: "FIT_PAGE",
 		});
 });
 	
