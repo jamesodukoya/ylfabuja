@@ -15,7 +15,9 @@ function NBAConstitution() {
                             <p className='small-gold text-center'> Coming soon</p>
                         </div>
                     </div>
-                    <div id="adobe-dc-view" className='w-[92%] h-screen xl:max-w-[1200px]'></div>
+                    <div className='flex justify-center relative z-10'>
+                        <div id="adobe-dc-view" className='w-[92%] h-screen xl:max-w-[1200px]'></div>
+                    </div>
                 </section>
             </div>
             <Script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></Script>
