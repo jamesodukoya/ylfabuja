@@ -14,7 +14,7 @@ function NBAConstitution() {
                             <p className='small-gold text-center'> Coming soon</p>
                         </div>
                     </div>
-                    <div className='flex justify-center'>
+                    <div className='flex items-center flex-col'>
                         <iframe
                             className='h-screen relative z-10 max-w-[90%]'
                             src=
@@ -23,6 +23,12 @@ function NBAConstitution() {
                             width="800"
                         >
                         </iframe>
+                        <embed className="h-screen relative z-10 max-w-[90%]"
+                            src=
+                            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+                            width="800" height="500">
+
+                        </embed>
                     </div>
                 </section>
             </div>
