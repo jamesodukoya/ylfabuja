@@ -15,26 +15,11 @@ function NBAConstitution() {
                             <p className='small-gold text-center'> Coming soon</p>
                         </div>
                     </div>
-                    <div className='flex items-center flex-col'>
-                        <iframe
-                            className='h-screen relative z-10 max-w-[90%]'
-                            src=
-                            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf#zoom=100"
-                            height="500"
-                            width="800"
-                        >
-                        </iframe>
-                        <embed className="h-screen relative z-10 max-w-[90%]"
-                            src=
-                            "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
-                            width="800" height="500">
-
-                        </embed>
-                        <div className="smallpdf-widget w-full h-screen relative z-10" data-pdf-url="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"></div>
-                    </div>
+                    <div id="adobe-dc-view" className='w-[92%] h-screen xl:max-w-[1200px]'></div>
                 </section>
             </div>
-            <Script src="https://smallpdf.com/api/embed-widget.js"></Script>
+            <Script src="https://acrobatservices.adobe.com/view-sdk/viewer.js"></Script>
+            <Script src='/js/adobereader.js'></Script>
         </div>
     )
 }
