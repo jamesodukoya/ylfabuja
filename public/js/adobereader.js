@@ -3,7 +3,10 @@ document.addEventListener("adobe_dc_view_sdk.ready", function(){
 		adobeDCView.previewFile({
 			content:{location: {url: "NBAConstitution2021.pdf"}},
 			metaData:{fileName: "Bodea Brochure.pdf"}
-		}, {embedMode: "FULL_WINDOW"});
+		}, {
+			embedMode: "FULL_WINDOW",
+			defaultViewMode: "FIT_WIDTH",
+		});
 });
 	
 	// e9cedcbf5e5a4ba68d8d0190fee16c65
