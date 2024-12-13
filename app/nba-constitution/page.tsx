@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Header from '../_components/Header'
+import Script from 'next/script'
 
 function NBAConstitution() {
     return (
@@ -29,9 +30,11 @@ function NBAConstitution() {
                             width="800" height="500">
 
                         </embed>
+                        <div className="smallpdf-widget w-full h-screen relative z-10" data-pdf-url="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"></div>
                     </div>
                 </section>
             </div>
+            <Script src="https://smallpdf.com/api/embed-widget.js"></Script>
         </div>
     )
 }
