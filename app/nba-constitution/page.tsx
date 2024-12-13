@@ -8,7 +8,7 @@ function NBAConstitution() {
     useEffect(() => {
         const script = document.createElement("script");
         script.src =
-            "https://acrobatservices.adobe.com/view-sdk/viewer.js";
+            "https://documentcloud.adobe.com/view-sdk/main.js";
         script.async = true;
         document.body.append(script);
 
