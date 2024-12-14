@@ -30,21 +30,41 @@ function About() {
                                     The Young Lawyers Forum of Nigerian Bar Association, Abuja Branch (Unity Bar) is as a gateway for young lawyers to enter and thrive in the legal community, promoting their welfare and active participation. Our mission is to empower young lawyers in Abuja by fostering a supportive community, promoting professional development, and advocating for their interests. <br></br><br />
                                     The Forum was established by the then Chairman of the Branch Abdul Ibrahim SAN with Mr Afam Okeke the immediate past Chairman of the Branch as the Pioneer Chairman of the Forum in 2006.
                                 </p> <br></br>
-                                <h3 className='small-gold'>Objectives</h3>
+                                <h3 className='small-gold text-center'>Objectives</h3>
 
-                                <ul className='list-disc list-inside'>
-                                    <div className='para'>
-                                        <li>Professional Growth: Provide a platform for young lawyers to enhance their skills, knowledge, and networking capabilities.</li>
-                                        <li>Community Engagement: Organise education, social activities, and leadership opportunities to promote active participation and welfare.</li>
-                                        <li>Advocacy: Advocate for the welfare of young lawyers within Abuja.</li>
-                                        <li>Mentorship: Pair young lawyers with experienced mentors for guidance and support.</li>
-                                        <li>Career Development: Offer resources and training to enhance career prospects and opportunities.</li>
-                                        <li>Networking: Facilitate connections among young lawyers, senior lawyers, and industry professionals.</li>
-                                        <li>Social Responsibility: Encourage young lawyers to engage in pro bono work and community service.</li>
-
+                                <div className='grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 justify-center gap-8 mt-8'>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Professional Growth</h4>
+                                        <p>Provide a platform for young lawyers to enhance their skills, knowledge, and networking capabilities.</p>
                                     </div>
-                                </ul><br></br>
-                                <h3 className='small-gold'>Scope of Activities</h3>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Community Engagement</h4>
+                                        <p>Organise education, social activities, and leadership opportunities to promote active participation and welfare.</p>
+                                    </div>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Advocacy</h4>
+                                        <p>Advocate for the welfare of young lawyers within Abuja.</p>
+                                    </div>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Mentorship</h4>
+                                        <p>Pair young lawyers with experienced mentors for guidance and support.</p>
+                                    </div>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Career Development</h4>
+                                        <p>Offer resources and training to enhance career prospects and opportunities.</p>
+                                    </div>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Networking</h4>
+                                        <p>Facilitate connections among young lawyers, senior lawyers, and industry professionals.</p>
+                                    </div>
+                                    <div className='text-center p-8 bg-[#1A1A1A]'>
+                                        <h4>Social Responsibility</h4>
+                                        <p>Encourage young lawyers to engage in pro bono work and community service.</p>
+                                    </div>
+                                </div>
+
+                                <br></br>
+                                <h3 className='small-gold text-center'>Scope of Activities</h3>
                                 <p>The Young Lawyers Forum engages in various initiatives including:</p>
                                 <ol className='list-decimal list-inside'>
                                     <div className='para'>
@@ -58,7 +78,7 @@ function About() {
 
                                     </div>
                                 </ol><br></br>
-                                <h3 className='small-gold'>Membership</h3>
+                                <h3 className='small-gold text-center'>Membership</h3>
 
                                 <ol className='list-decimal list-inside'>
                                     <p>The Forum is open to young lawyers in Nigeria, with a focus on those based in Abuja. Membership benefits include:</p>
