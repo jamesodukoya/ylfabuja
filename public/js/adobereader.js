@@ -25,7 +25,10 @@ elements.forEach((element) => {
 				}
 			},
 			{
-				embedMode: "LIGHT_BOX"
+				embedMode: "LIGHT_BOX",
+				enableLinearization: true,
+				defaultViewMode: "FIT_PAGE",
+				showZoomControl: true,
 			}
 		);
 	});
