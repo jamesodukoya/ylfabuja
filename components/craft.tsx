@@ -38,7 +38,7 @@ const Main = ({ children, className, id }: MainProps) => {
     <main
       className={cn(
         // `Main` Specific Styles
-        "max-w-none prose-p:m-0",
+        "max-w-none prose-p:m-0 text-background",
         // General Prose
         "prose prose-neutral prose:font-sans dark:prose-invert xl:prose-lg",
         // Prose Headings
@@ -46,13 +46,13 @@ const Main = ({ children, className, id }: MainProps) => {
         // Prose Strong
         "prose-strong:font-semibold",
         // Inline Links
-        "prose-a:underline prose-a:decoration-primary/50 prose-a:underline-offset-2 prose-a:text-foreground/75 prose-a:transition-all",
+        "prose-a:underline prose-a:decoration-primary/50 prose-a:underline-offset-2 prose-a:transition-all",
         // Inline Link Hover
-        "hover:prose-a:decoration-primary hover:prose-a:text-foreground",
+        "hover:prose-a:decoration-primary",
         // Blockquotes
         "prose-blockquote:not-italic",
         // Pre and Code Blocks
-        "prose-pre:border prose-pre:bg-muted/25 prose-pre:text-foreground",
+        "prose-pre:border prose-pre:bg-muted/25",
         className
       )}
       id={id}
@@ -119,15 +119,17 @@ const Article = ({
         // Prose Strong
         "prose-strong:font-semibold",
         // Inline Links
-        "prose-a:underline prose-a:decoration-primary/50 prose-a:underline-offset-2 prose-a:text-foreground/75 prose-a:transition-all",
+        "prose-a:underline prose-a:decoration-primary/50 prose-a:underline-offset-2 prose-a:transition-all",
         // Inline Link Hover
-        "hover:prose-a:decoration-primary hover:prose-a:text-foreground",
+        "hover:prose-a:decoration-primary",
         // Blockquotes
         "prose-blockquote:not-italic",
         // Pre and Code Blocks
         "prose-pre:border prose-pre:bg-muted/25",
         // Images
         "prose-img:rounded-lg prose-img:border prose-img:overflow-hidden",
+        // Ordered lists
+        "prose-ol:text-background prose-ol:list-decimal prose-ol:list-inside prose-ol:text-xl",
         className
       )}
       id={id}
