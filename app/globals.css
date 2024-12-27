@@ -68,7 +68,7 @@ body {
   -moz-transition: all 0.4s
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
     .header.open {
       background: rgba(19,19,19,0.97);
       padding: 40px 30px;
@@ -357,7 +357,7 @@ p, .para {
   background-image: url('/about-ylf-abuja.webp');
 }
 
-.about:after, .exec:after, .page_overlay:after {
+.about:after, .exec:after, .page_overlay:after, .general:after {
   background: -moz-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 40%);
   background: -webkit-linear-gradient(top, rgba(19,19,19,0) 1%, #131313 40%);
   background: linear-gradient(to bottom, rgba(19,19,19,0) 1%, #131313 40%);

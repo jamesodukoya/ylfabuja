@@ -130,6 +130,8 @@ const Article = ({
         "prose-img:rounded-lg prose-img:border prose-img:overflow-hidden",
         // Ordered lists
         "prose-ol:text-background prose-ol:list-decimal prose-ol:list-inside prose-ol:text-xl",
+        // Unordered lists
+        "prose-ul:text-background prose-ul:list-disc prose-ul:list-inside prose-ul:text-xl",
         className
       )}
       id={id}

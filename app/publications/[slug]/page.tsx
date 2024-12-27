@@ -40,18 +40,22 @@ export default async function Page({ params }: { params: { slug: string } }) {
   return (
     <div>
       <section className="soon section_bg" style={{
-        backgroundImage: `url(${featuredMedia.source_url !== undefined ? featuredMedia.source_url : "/publications.webp"})`
+        backgroundImage: `url(${featuredMedia.source_url !== undefined ? featuredMedia.source_url : "/publications.webp"})`,
       }}>
-        <Header />
-        <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
-          <div className='py-32 relative z-10'>
-            <h1 className='text-center'>
-              <Balancer>
-                <span
-                  dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-                ></span>
-              </Balancer>
-            </h1>
+        <div style={{
+          backgroundColor: 'rgba(19, 19, 19, 0.7)'
+        }}>
+          <Header />
+          <div className="xl:px-20 pt-28 px-5 md:px-10 min-h-[400px] flex items-center justify-center">
+            <div className='py-32 relative z-10'>
+              <h1 className='text-center'>
+                <Balancer>
+                  <span
+                    dangerouslySetInnerHTML={{ __html: post.title.rendered }}
+                  ></span>
+                </Balancer>
+              </h1>
+            </div>
           </div>
         </div>
       </section>
@@ -75,6 +79,12 @@ export default async function Page({ params }: { params: { slug: string } }) {
           </div>
 
           <Article dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+          <a className='button about-btn my-20 text-background' href="https://dash.nbaylfabuja.org" target="_blank">
+            <div className='flex items-center btn hover:translate-x-2 gap-3.5'>
+              <span className='text-center'>Publish with us</span>
+              <svg viewBox="0 0 32 32" width="30" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9a1 1 0 0 0 0 1.42l4.6 4.6H3.06a1 1 0 1 0 0 2h23.52L22 21.59A1 1 0 0 0 22 23a1 1 0 0 0 1.41 0l6.36-6.36a.88.88 0 0 0 0-1.27L23.42 9A1 1 0 0 0 22 9Z" data-name="Layer 2" fill="#c9a66d" ></path></svg>
+            </div>
+          </a>
         </Container>
       </Section>
     </div>
