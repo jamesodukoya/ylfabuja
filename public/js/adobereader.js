@@ -3,6 +3,8 @@
 // e9cedcbf5e5a4ba68d8d0190fee16c65
 
 // www.nbaylfabuja.org: "04bb7623260a4635abeb5d2105f6686e"
+
+// nbaylfabuja.org: 2dd193cc30c6424683bd83d113d5be22
 	
 const elements = document.querySelectorAll('#LoadPDF');
 
@@ -11,7 +13,7 @@ elements.forEach((element) => {
 	{
 		var adobeDCView = new AdobeDC.View(
 			{
-				clientId: "50634c7ad18942388ecd45abe14999c2"
+				clientId: "2dd193cc30c6424683bd83d113d5be22"
 			}
 		);
 
