@@ -42,7 +42,7 @@ function Header() {
               <svg viewBox="0 0 32 32" width="25" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M16 7v18M7 16h18" fill="none" stroke="#c9a66d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2px" className={`stroke-000000 xl:hidden ${subOpen ? "subOpen" : ""}`}></path></svg>
               <span className={`icon-plus xl:hidden `}></span>
             </div>
-            <div className={`xl:absolute ${subOpen ? "flex" : "hidden"} xl:z-50 xl:top-24 flex-col flex-nowrap xl:bg-dark xl:px-10 xl:py-12 xl:gap-5 pt-2  sub-div`}>
+            <div className={`xl:absolute ${subOpen ? "flex" : "hidden"} xl:text-left xl:z-50 xl:top-24 flex-col flex-nowrap xl:bg-dark xl:px-10 xl:py-12 xl:gap-5 pt-2  sub-div`}>
               <a href='/members-portal' className={`sub-menu hover:text-gold hover:translate-x-3 xl:pl-0 pl-3 ${path == "/members-portal" && 'text-gold'}`}>Members' Portal</a>
               <a href='/find-a-lawyer' className={`sub-menu hover:text-gold hover:translate-x-3 xl:pl-0 pl-3 ${path == "/find-a-lawyer" && 'text-gold'}`}>Find a Lawyer</a>
               <a href='/law-firms-in-abuja' className={`sub-menu hover:text-gold hover:translate-x-3 xl:pl-0 pl-3 ${path == "/law-firms-in-abuja" && 'text-gold'}`}>Law Firms in Abuja</a>
