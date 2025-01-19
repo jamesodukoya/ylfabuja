@@ -33,7 +33,7 @@ function Header() {
             <span className="line line-3"></span>
           </div>
         </div>
-        <div className={`xl:flex-row xl:flex xl:items-center items-start flex flex-col xl:gap-20 xl:gap-10 xl:justify-between xl:w-auto w-full xl:mt-0 mt-10 ${!open && "hidden"}`}>
+        <div className={`xl:flex-row xl:flex xl:items-center xl:ml-10 items-start flex flex-col xl:gap-10 xl:justify-between xl:w-auto w-full xl:mt-0 mt-10 ${!open && "hidden"}`}>
           <a href='/about' className={`xl:border-0 border-b border-gold  w-full py-3 xl:py-0 hover:text-gold ${path == "/about" && 'text-gold'} navbar`}>ABOUT US</a>
           <a href='/executives' className={`xl:border-0 xl:w-1/5 border-b border-gold w-full py-3 xl:py-0 hover:text-gold ${path == "/executives" && 'text-gold'} navbar`}>EXECUTIVES</a>
           <div className='group xl:border-0 border-b border-gold xl:py-5 py-3 xl:flex flex-col block xl:w-1/5 w-full xl:items-center transition'>
