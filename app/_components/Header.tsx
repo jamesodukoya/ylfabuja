@@ -33,7 +33,7 @@ function Header() {
             <span className="line line-3"></span>
           </div>
         </div>
-        <div className={`xl:flex-row xl:flex xl:items-center xl:ml-10 items-start flex flex-col xl:gap-10 xl:justify-between xl:w-auto w-full xl:mt-0 mt-10 ${!open && "hidden"}`}>
+        <div className={`xl:flex-row xl:flex xl:items-center xl:text-center xl:ml-10 items-start flex flex-col xl:gap-[26px] xl:justify-between xl:w-auto w-full xl:mt-0 mt-10 ${!open && "hidden"}`}>
           <a href='/about' className={`xl:border-0 border-b border-gold  w-full py-3 xl:py-0 hover:text-gold ${path == "/about" && 'text-gold'} navbar`}>ABOUT US</a>
           <a href='/executives' className={`xl:border-0 xl:w-1/5 border-b border-gold w-full py-3 xl:py-0 hover:text-gold ${path == "/executives" && 'text-gold'} navbar`}>EXECUTIVES</a>
           <div className='group xl:border-0 border-b border-gold xl:py-5 py-3 xl:flex flex-col block xl:w-1/5 w-full xl:items-center transition'>
@@ -55,6 +55,13 @@ function Header() {
           <a href='/publications' className={`xl:border-0 xl:w-1/5 border-b border-gold w-full py-3 xl:py-0 hover:text-gold ${path.includes("/publications") && 'text-gold'} navbar`}>PUBLICATIONS</a>
           <a href='/news-events' className={`xl:border-0  border-b border-gold w-full py-3 xl:py-0 hover:text-gold ${path == "/news-events" && 'text-gold'} navbar`}>NEWS & EVENTS</a>
           <a href='/contact' className={`xl:border-0  border-b border-gold w-full py-3 xl:py-0 hover:text-gold ${path == "/contact" && 'text-gold'} navbar`}>CONTACT</a>
+          <a className='button about-hbtn my-3 xl:my-0 text-foreground' href="https://dash.nbaylfabuja.org/become-a-member/" target="_blank">
+            <div className='flex items-center btn hover:translate-x-2 gap-2'>
+              <span className='text-center xl:hidden text-nowrap '>Become a member</span>
+              <span className='text-center xl:block hidden text-nowrap'>join us</span>
+              <svg viewBox="0 0 32 32" width="30" height="24" xmlns="http://www.w3.org/2000/svg"><path d="M22 9a1 1 0 0 0 0 1.42l4.6 4.6H3.06a1 1 0 1 0 0 2h23.52L22 21.59A1 1 0 0 0 22 23a1 1 0 0 0 1.41 0l6.36-6.36a.88.88 0 0 0 0-1.27L23.42 9A1 1 0 0 0 22 9Z" data-name="Layer 2" fill="#c9a66d" ></path></svg>
+            </div>
+          </a>
         </div>
       </header>
     </div>
